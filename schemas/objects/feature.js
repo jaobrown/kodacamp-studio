@@ -1,6 +1,6 @@
 export default {
-  title: "Social Callout",
-  name: "socialCallout",
+  title: "Feature",
+  name: "feature",
   type: "object",
   fields: [
     {
@@ -9,17 +9,18 @@ export default {
       type: "string",
     },
     {
-      title: "Social List",
-      name: "socialList",
+      title: "Body",
+      name: "body",
+      type: "text",
+    },
+    {
+      title: "Tags",
+      name: "tags",
       type: "array",
       of: [
         {
           type: "reference",
-          to: [
-            {
-              type: "social",
-            },
-          ],
+          to: [{ type: "tag" }],
         },
       ],
     },
