@@ -56,6 +56,19 @@ export default {
       ],
     },
     {
+      title: "Category",
+      name: "category",
+      type: "string",
+      options: {
+        list: [
+          { title: "Development", value: "development" },
+          { title: "Design", value: "design" },
+          { title: "Product", value: "product" },
+        ],
+      },
+    },
+
+    {
       title: "Content",
       name: "content",
       type: "array",
