@@ -39,6 +39,16 @@ export default {
       type: "image",
     },
     {
+      title: "Hero Image",
+      name: "heroImage",
+      type: "image",
+    },
+    {
+      title: "Thumbnail Image",
+      name: "thumbnailImage",
+      type: "image",
+    },
+    {
       title: "Excerpt",
       name: "excerpt",
       type: "text",
